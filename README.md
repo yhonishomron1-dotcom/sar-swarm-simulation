@@ -4,7 +4,7 @@ A small, reproducible simulation of a robot swarm exploring an unknown rubble fi
 
 Everything here is simulated on synthetic data. It is a civilian research and learning project.
 
-![Example run](figures/fig2_snapshots.png)
+![Example run](fig2_snapshots.png)
 
 ## Research questions
 
@@ -21,7 +21,7 @@ Everything here is simulated on synthetic data. It is a civilian research and le
 - **Planning:** each agent moves toward the nearest unexplored frontier. In the coordinated setting it avoids frontiers already claimed by nearby agents.
 - **Failures:** optional random permanent agent failures.
 
-![Simulation loop](figures/fig1_architecture.png)
+![Simulation loop](fig1_architecture.png)
 
 ## Main results
 
@@ -40,7 +40,7 @@ Mean over 15 random worlds (ticks, ± approximate 95% CI). Full results and figu
 - **Radio range:** finding all survivors took about 230 ticks at range 2 and about 139 at range 60.
 - **Failures:** low failure rates barely changed results; at 0.01 per agent per tick the swarm found only 86% of survivors on average.
 
-![Swarm size results](figures/fig4_scaling.png)
+![Swarm size results](fig4_scaling.png)
 
 ## Quick start
 
